@@ -127,7 +127,6 @@ const siteContent = {
   
   //Footer
   pTags[8].textContent = siteContent["footer"]["copyright"];
-  
   //
   
   
