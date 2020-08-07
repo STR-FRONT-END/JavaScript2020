@@ -109,3 +109,12 @@ Add child elements to parent elements.
 eg: parentElement.appendChild(childElement)
 .prepend(child) adds a child to the beginning, displaying it first.
 eq: parentElement.prepend(childElement)
+
+
+_____
+
+
+* explain what the DOM is, and how it relates to an html page
+* use DOM selectors, and describe the differences in the behavior of each
+* use different properties and methods to manipulate a selected element
+* create a new element, manipulate it, and add it to the DOM
