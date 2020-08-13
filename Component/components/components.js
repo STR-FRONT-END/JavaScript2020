@@ -147,9 +147,11 @@ data.forEach((arrayItem) => {
   // 4e - add content to elements
   // STEP 7: Add event listener
   // STEP 8: Add toggle within event listener for buttons and text
+
+
+
+// The purpose of this function is to create a panel component and return the DOM component (unattached to the DOM)
   const createPanel = (title, content) => {
-    // The purpose of this function is to create a panel component and return the DOM component (unattached to the DOM)
-    
     // create all the elements that are in the component. these are floating, unattached, elements.
     const panel = document.createElement('div')
     const panelBar = document.createElement('div')
