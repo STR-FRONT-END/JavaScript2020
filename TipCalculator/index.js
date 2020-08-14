@@ -13,9 +13,9 @@ function calculateTip() {
   //Check to see if this input is empty or less than or equal to 1
   if (numOfBills === "" || numOfBills <= 1) {
     numOfBills = 1;
-    document.getElementById("each").style.display = "none";
+    document.getElementById("finalTipAmount").style.display = "none";
   } else {
-    document.getElementById("each").style.display = "block";
+    document.getElementById("finalTipAmount").style.display = "block";
   }
 
   //Calculate tip
@@ -32,7 +32,7 @@ function calculateTip() {
 
 //Hide the tip amount on load
 document.getElementById("tipAmount-container").style.display = "none";
-document.getElementById("each").style.display = "none";
+document.getElementById("finalTipAmount").style.display = "none";
 
 //click to call function
 document.getElementById("calculate").onclick = function() {

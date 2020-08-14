@@ -1,98 +1,64 @@
-body {
-  font-family: Roboto;
-  background: #8E0E00;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8E0E00, #1F1C18);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 
 .calculator-container {
-  height: 525px;
-  width: 360px;
-  margin: 100px auto;
-  background: #f7f7f7;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #8b5997;
+  margin: 0 auto;
+  width:60%;
+ 
 }
 
-h1 {
-  background: #1F030C;
-  color: white;
-  margin: 0;
-  padding: 10px 100px;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: normal;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+
+.calculator-container1 {
+  background: red;
+  margin: 0 auto;
+  width:70%;
 }
 
-p {
-  padding-left: 20px;
+.calculator-container2 {
+  background: yellow;
+  margin: 0 auto;
+  width:80%;
 }
 
-form input[type="text"] {
-  width=90px;
+.calculator-container3 {
+  background: #0000;
+  margin: 0 auto;
+  width:90%;
 }
 
-input {
-  padding-left: 20px;
+.calculator-container4 {
+  background: green;
+  margin: 0 auto;
+  width:100%;
 }
-
-#cost {
-  font-size: 14px;
-  /*color: #2980b9;*/
-  color: #red;
-  background-color: #f7f7f7;
-  width: 60%;
-  padding: 5px 5px 8px 8px;
-}
-
-#cost:focus {
-  background: #fff;
-  border: 3px solid #2980b9;
-  outline: none;
-}
-
-#numOfBills {
-  width: 60%;
-  padding: 5px 5px 8px 8px;
-  margin-left: 20px;
-  color: #red;
-  background-color: #f7f7f7;
-  font-size: 14px;
-}
-
-.dollarSign {
-  display: inline;
-}
-
-#tipPercent {
+ /* #tipPercent {
   padding: 13px 13px 20px 20px;
   margin-left: 20px;
   font-size: 25px;
 }
 
-button {
+ button {
   text-transform: uppercase;
   font-weight: bold;
   display: block;
   margin: 30px auto;
-  background: #AD133A;
+  background: #000000;
+  border-color: #7f189e;
   border-radius: 5px;
   width: 200px;
   height: 50px;
   font-size: 17px;
   color: white;
+  text-transform: uppercase;
 }
 
 button:hover {
-  background: #4c2827;
-  border-bottom-color: #111;
+  background: #7f189e;
+  border-color: #000000;
 }
 
 button:active {
@@ -100,27 +66,16 @@ button:active {
   top: 1px;
 }
 
-#tipAmount-container {
+ #tipAmount-container {
+  border: 2px solid red;
   font-size: 30px;
   margin-top: 5px;
   text-align: center;
+  background-color: purple;
 }
-
+ 
 #tipAmount-container:before {
   content: "Tip amount";
   font-size: 20px;
-  font-weight: bold;
-  display: block;
   text-transform: uppercase;
-}
-
-#tipAmount-container sup {
-  font-size: 20px;
-  top: -18px;
-}
-
-#tipAmount-container small {
-  font-size: 20px;
-  font-weight: bold;
-  display: block;
-}
+} */
