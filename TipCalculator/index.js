@@ -7,7 +7,7 @@ function calculateTip() {
 
   //validate input
   if (cost === "" || tipPercent == 0) {
-    alert("Please enter values");
+    alert("Enter bill amount");
     return;
   }
   //Check to see if this input is empty or less than or equal to 1

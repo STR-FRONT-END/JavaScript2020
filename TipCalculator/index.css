@@ -1,53 +1,110 @@
-
-
-.calculator-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #8b5997;
-  margin: 0 auto;
-  width:60%;
- 
+body {
+  background: black;
+  font-family: 'Anton', sans-serif;
 }
+
+
+
+
+
+
 
 
 .calculator-container1 {
   background: red;
   margin: 0 auto;
-  width:70%;
+  width:89%;
 }
 
 .calculator-container2 {
   background: yellow;
   margin: 0 auto;
-  width:80%;
+  width:89%;
 }
+
 
 .calculator-container3 {
-  background: #0000;
-  margin: 0 auto;
-  width:90%;
-}
-
-.calculator-container4 {
   background: green;
   margin: 0 auto;
-  width:100%;
-}
- /* #tipPercent {
-  padding: 13px 13px 20px 20px;
-  margin-left: 20px;
-  font-size: 25px;
+  width:89%;
 }
 
+
+.calculator-container4 {
+  background: red;
+  margin: 0 auto;
+  width:89%;
+}
+
+.calculator-container5 {
+  background: yellow;
+  margin: 0 auto;
+  width:89%;
+}
+
+
+.calculator-container6 {
+  background: green;
+  margin: 0 auto;
+  width: 89%;
+}
+
+.calculator {
+  width: 90%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-sections {
+  margin-bottom: 20px;
+  padding:0 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  width: 80%;
+}
+
+
+#tipPercent {
+  font-size: 15px;
+  align-self: center;
+  margin-right: 95px;
+}
+
+.form-sections input {
+  align-self: center;
+}
+
+.green {
+  border: 2px solid green;
+}
+
+.yellow {
+  border: 2px solid yellow;
+}
+
+.red {
+  border: 2px solid red;
+}
+
+
+ 
+
  button {
-  text-transform: uppercase;
-  font-weight: bold;
   display: block;
   margin: 30px auto;
   background: #000000;
-  border-color: #7f189e;
+  border-color: green;
+  border-top-color: yellow;
+  border-bottom-color: red;
+  font-family: 'Anton', sans-serif;
   border-radius: 5px;
   width: 200px;
   height: 50px;
@@ -55,10 +112,29 @@
   color: white;
   text-transform: uppercase;
 }
+input, select{
+  border-bottom-color: yellow;
+  border-right-color: yellow;
+  border-top-color: red;
+  border-left-color: red;
+  font-family: 'Anton', sans-serif;
+  background: green;
+  color: red;
+}
+input::placeholder, select {
+  color: rgb(187, 186, 186);
+}
+
+input:focus {
+  background: yellow;
+  border-color: green;
+}
 
 button:hover {
-  background: #7f189e;
-  border-color: #000000;
+  border-color: green;
+  border-left-color: yellow;
+  border-right-color: red;
+  
 }
 
 button:active {
@@ -67,15 +143,15 @@ button:active {
 }
 
  #tipAmount-container {
-  border: 2px solid red;
   font-size: 30px;
   margin-top: 5px;
   text-align: center;
-  background-color: purple;
+  background-color: green;
+  border-radius: 5px;
 }
  
 #tipAmount-container:before {
   content: "Tip amount";
   font-size: 20px;
   text-transform: uppercase;
-} */
+}
