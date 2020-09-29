@@ -31,23 +31,23 @@
 
 //STOP PROPAGATION
 
-// const body = document.querySelector('body');
-// const cardGroup = document.querySelector('.card-group');
-// const card = document.querySelector('.card');
-// // console.log(body);
-// // console.log(cardGroup);
-// // console.log(card);
-// body.addEventListener('click', (e) => {
-//   // console.log(e);
-//   e.stopPropagation();
-//   console.log('Clicked body!');
-//   body.style.backgroundColor = 'hotpink';
-// });
-// cardGroup.addEventListener('click', (e) => {
-//   e.stopPropagation();
-//   console.log('Clicked cardGroup!');
-//   cardGroup.style.backgroundColor = 'forestgreen';
-// });
+const body = document.querySelector('body');
+const cardGroup = document.querySelector('.card-group');
+const card = document.querySelector('.card');
+// console.log(body);
+// console.log(cardGroup);
+// console.log(card);
+body.addEventListener('click', (e) => {
+  // console.log(e);
+  e.stopPropagation();
+  console.log('Clicked body!');
+  body.style.backgroundColor = 'hotpink';
+});
+cardGroup.addEventListener('click', (e) => {
+  e.stopPropagation();
+  console.log('Clicked cardGroup!');
+  cardGroup.style.backgroundColor = 'forestgreen';
+});
 // card.addEventListener('click', (e) => {
 //   e.stopPropagation();
 //   console.log('Clicked card!');

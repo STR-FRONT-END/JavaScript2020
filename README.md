@@ -80,3 +80,8 @@ function getLetter(s) {
 }
 
 getLetter("hello")
+
+
+
+
+[Spread Operator](https://www.notion.so/The-Spread-Operator-b7608512fbd844ec9f27f31740fb7298)

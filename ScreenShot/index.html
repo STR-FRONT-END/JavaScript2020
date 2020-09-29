@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel = 'stylesheet' type = 'text/css' href = 'index.css' />
+    <title>Document</title>
+</head>
+<body>
+    <div id="screenshot">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis eleifend elit. Donec lectus sem, scelerisque sit amet facilisis quis, gravida a lacus. Nunc at lorem egestas, gravida lorem quis, pulvinar ante. Quisque id tempus libero. Mauris hendrerit nunc risus, ac laoreet lectus gravida et. Nam euismod magna ac enim posuere sagittis. Fusce at egestas enim, eu hendrerit enim.
+    </div>
+    
+    <button onclick= "screenShot()" id = 'btn'>TakeScreen Shot</button>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+   <!-- <script type = 'text/javascript' src= 'index.js.js'></script> -->
+        <script>
+                function screenShot(){
+                    // alert("Screen Shot button Clicked");
+                    let screenshot = document.querySelector("#screenshot");
+
+                    html2canvas(screenshot, { 
+                        onrendered:function(canvas){
+                            document.body.appendChild(canvas)
+                        },
+                        width: 300,
+                        height: 400,
+                    })
+                }
+        </script>   
+</body>
+</html>

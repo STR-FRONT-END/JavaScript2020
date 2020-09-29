@@ -115,7 +115,7 @@ buttonArea.forEach(btn => {
 
 
 
-//CODE I COULD NOT GET TO WORK
+//I COULD NOT GET TO WORK
 const picBorder = document.querySelectorAll('.destination');
 picBorder.addEventListener('click', ev => {
   ev.target.style.border = '2px solid #FEBB4E';
