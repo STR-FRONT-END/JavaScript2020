@@ -1,8 +1,8 @@
 # JavaScript Projects
 
 - [Functions]()
-- [ ]()
-- [ ]()
+- [ Async and Await]()
+- [ Axios ](projects/asyncawait/axiosrequest.js)
 - [ ]()
 - [ ]()
 - [ ]()
