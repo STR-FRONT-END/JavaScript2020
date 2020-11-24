@@ -1,12 +1,12 @@
 # JavaScript Projects
 
 - [Functions]()
-- [ Async and Await]()
-- [ Axios ](projects/asyncawait/axiosrequest.js)
-- [ ]()
-- [ ]()
-- [ ]()
-- [ ]()
+- [Async and Await](projects/asyncawait/README.md)
+- [Axios ](projects/asyncawait/README.md)
+- [Budget Cakculator](todo/README.md)
+- [Cypress](todo/README.md)
+- [Tip Calculator](todo/README.md)
+- [Todo](todo/README.md)
 - [ ]()
 - [ ]()
 - [Components]()
