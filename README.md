@@ -1,4 +1,89 @@
-# JavaScript
+# JavaScript Projects
+
+- [Functions]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [Components]()
+- [Arrays ]()
+- [DOM]()
+- [Cypress Testing]()
+- [Objects]()
+- [Classes]()
+
+<!-- - [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]()
+- [ ]() -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__________________________
 * loosely-typed client side scripting language
 * executes in the user's browser, each browser includes different JavaScript engines
 * interact with html elements (DOM elements) in order to make interactive web user interface.
