@@ -82,7 +82,12 @@ const counterFactory = () => {
 //___________________________________________________________
 
 
+
+
+
+
 //Questions: http://csbin.io/closures
+//Solutions: https://github.com/CodesmithLLC/cs-bin-solutions/blob/master/closures.js
 
 // CHALLENGE 1
 function createFunction() {
