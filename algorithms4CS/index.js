@@ -125,3 +125,24 @@ function merge_packages(items, limit) {
   const limit = 10
   const arr = [1, 3, 15, 5, 7, 16, 9, 5, 22]
   merge_packages(arr, limit)
+//___________________________________________________________________
+
+
+
+//indexOf, returns the position of the first orrcurrance
+//lastindexOf, returns the position of the last orrcurrance
+//if the first orrcurance and the last orrcurance are the same then the character only appears once
+//charAt returns a new string, of the character at a particular index
+function first_not_repeating_character(s) {
+  for (let i = 0; i < s.length; i++){// iterates over each charatcer
+      let letter = s[i]// saves the character
+//Using i which is the index of letter, charAt would give me the letter
+      //Could have used letter instead of `s.charAt(i)`
+      //if the first orcurrance is equal to the lats orrcurrance then return the letter
+      if (s.indexOf(s.charAt(i)) == s.lastIndexOf(s.charAt(i))) {
+          return letter;
+      }
+  }
+  return '_'; //otherwise return _
+}
+first_not_repeating_character("shannonshakeyaKeithKeonKitai")
