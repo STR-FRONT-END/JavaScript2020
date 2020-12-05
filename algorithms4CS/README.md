@@ -1,1 +1,0 @@
-- [ Find first repeating character in a string ]
